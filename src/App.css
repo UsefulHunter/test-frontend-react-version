@@ -1,0 +1,53 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5em;
+}
+
+.App {
+  color: #383d3b;
+  background-color: #fbfbfb;
+}
+.Content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form__input {
+  width: 300px;
+  padding: 0.2em 0.4em;
+  margin: 0.1em;
+}
+
+.form__submit {
+  margin: 0.1em;
+}
+
+.Repositories {
+  padding: 0;
+  list-style-type: none;
+  margin: 0 auto;
+}
+.Repositories li {
+  color: #5c5d8d;
+  background-color: #f0f0f4;
+  padding: 0.5em;
+  margin-bottom: 0.2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Links {
+  color: #5c5d8d;
+}
